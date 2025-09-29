@@ -31,7 +31,7 @@ if (options.survived) {
 
 const print_passengers = (passengers) => {
     for(const p of passengers) {
-        console.log(p);
+        console.log(`${p.Name}\t${options.age?`\t${p.Age}\t` : ''}${p.Sex}\t${p.Ticket}`);
     }    
 }
 
