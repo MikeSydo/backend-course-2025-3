@@ -36,7 +36,7 @@ const print_passengers = (passengers) => {
 }
 
 if(options.display) {    
-    print_passengers();
+    print_passengers(passengers);
 }
 
 if (options.output) {
